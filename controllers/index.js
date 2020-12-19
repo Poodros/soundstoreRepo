@@ -7,7 +7,7 @@ const passport = require('passport')
 const User = require('../models/user')
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Task Manager',
+  res.render('index', { title: 'SoundStore',
   user: req.user});
 });
 
